@@ -8,7 +8,7 @@ app.use(body.urlencoded({extended:true}))
 app.use(express.static("public"))
 
 
-mongodb+srv://shettyankith:mjnLh9heUyr7fXd@cluster0.uaivfyu.mongodb.net/tododb
+
 mongoose.connect("mongodb+srv://shettyankith:mjnLh9heUyr7fXd@cluster0.uaivfyu.mongodb.net/tododb",{useNewurlParser:true})
 
 const todoschema= new mongoose.Schema({task:String})
